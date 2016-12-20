@@ -1,0 +1,12 @@
+version: 0.0
+os: windows
+files:
+  - source: .\deployment
+    destination: c:\wwwroot
+hooks:
+  ApplicationStop: 
+    - location: scripts\deregister_instances.ps1
+    - location: scripts\stop_iis.ps1
+  ApplicationStart:
+    - location: scripts\start_iis.ps1
+    - location: scripts\register_instances.ps1
