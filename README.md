@@ -19,9 +19,9 @@ Just as the original bash scripts, the powershell register and deregister script
 
 2. An instance profile with a policy that allows, at minimum, the following actions:
 
-elasticloadbalancing:Describe*
-elasticloadbalancing:DeregisterInstancesFromLoadBalancer
-elasticloadbalancing:RegisterInstancesWithLoadBalancer
+- elasticloadbalancing:Describe
+- elasticloadbalancing:DeregisterInstancesFromLoadBalancer
+- elasticloadbalancing:RegisterInstancesWithLoadBalancer
 
 
 ## Usage
