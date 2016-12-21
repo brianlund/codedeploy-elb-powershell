@@ -26,4 +26,4 @@ Just as the original bash scripts, the powershell register and deregister script
 
 ## Usage
 
-Add the deregister_instances.ps1 script to your ApplicationStop hook and register_instances.ps1 to your ApplicationStart hook. See the included appspec.yml for an example.
+Add the deregister_instances.ps1 script to your ApplicationStop (note this isn't run first time) or BeforeInstall hook and register_instances.ps1 to your ApplicationStart hook. See the included appspec.yml for an example.
