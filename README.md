@@ -1,5 +1,6 @@
 # codedeploy-elb-powershell
 
+For an explanation of what this is, see: http://cze.dk/codedeploy-and-aws-elastic-loadbalancer-windows-edition/
 
 Powershell implementation of the CodeDeploy loadbalancer examples found at https://github.com/awslabs/aws-codedeploy-samples
 
