@@ -5,8 +5,8 @@ files:
     destination: c:\wwwroot
 hooks:
   ApplicationStop: 
-    - location: scripts\deregister_instances.ps1
-    - location: scripts\stop_iis.ps1
+    - location: scripts/elb\deregister_instances.ps1
+    - location: scripts/elb\stop_iis.ps1
   ApplicationStart:
-    - location: scripts\start_iis.ps1
-    - location: scripts\register_instances.ps1
+    - location: scripts/elb\start_iis.ps1
+    - location: scripts/elb\register_instances.ps1
