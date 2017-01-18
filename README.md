@@ -6,7 +6,7 @@ Powershell implementation of the CodeDeploy loadbalancer examples found at https
 
 This implementation currently is missing some functionality compared to the bash variant, most notably:
 
-* no application loadbalancer support
+* ~~no application loadbalancer support~~
 * no autoscaling support
 * no support for predefined loadbalancers to deregister/reregister from and to. Instead we detect what loadbalancers the instance is currently registered with and uses those.
 * the temporary file that holds the loadbalancers is currently hardcoded to c:\temp\loadbalancers.lst (the directory is used in the walkthrough for setting up CodeDeploy so it might exist already, else create it, or better yet change the script to create the file in a secure way).
