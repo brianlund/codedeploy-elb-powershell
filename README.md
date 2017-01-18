@@ -23,7 +23,8 @@ For ELB:
 - elasticloadbalancing:Describe
 - elasticloadbalancing:DeregisterInstancesFromLoadBalancer
 - elasticloadbalancing:RegisterInstancesWithLoadBalancer
-For ELB-v2
+
+For ELB-v2:
 - elasticloadbalancing:Describe
 - elasticloadbalancing:DeregisterTargets
 - elasticloadbalancing:RegisterTargets
